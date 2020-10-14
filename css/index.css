@@ -1,0 +1,46 @@
+@media only screen and (max-device-width: 900px) {
+  body { width:100%; } 
+}
+@media only screen and (max-device-width: 900px) {
+  body { width:600px; }
+}
+@media only screen and (max-device-width: 700px) {
+  body { width:400px; }
+}
+body {
+background-color: black;
+}
+#11 {
+background-color: white;
+margin-top: 50px;
+height: 300px;"
+}
+.card-deck {
+width: 550px;
+height: 200px;
+}
+.card {
+background-color: #e8e3e3;
+margin-top: 50px;
+border-radius: 5px;
+border: 0px;
+margin-top: 70px;
+margin-bottom: 20px;
+}
+.card-title {
+color: #262525;
+font-size: 43px;
+}
+.card-text {
+color: #262525;
+font-size: 30px;
+margin-top: 1px;
+}
+.card2 {
+background-color: #e8e3e3;
+margin-top: 50px;
+border-radius: 5px;
+border: 0px;
+margin-top: 70px;
+margin-bottom: 20px;
+}
