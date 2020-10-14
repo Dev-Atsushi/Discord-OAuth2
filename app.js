@@ -80,6 +80,13 @@ res.render('index.ejs', {
    avatar: req.user ? `https://cdn.discordapp.com/avatars/${req.user.id}/${req.user.avatar}` : ''
 }) 
 });
+app.get('/css', function (req, res) {
+res.render('css/index.css', {
+    logged: req.user ? true : false,
+    username: req.user ? req.user.username : '',
+   avatar: req.user ? `https://cdn.discordapp.com/avatars/${req.user.id}/${req.user.avatar}` : ''
+}) 
+});
 
 app.get('/login', passport.authenticate('discord', { scope: scopes }), function(req, res) {});
 
