@@ -1,0 +1,26 @@
+{
+  "name": "site",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "passport": "^0.4.1",
+    "cookie-parser": "^1.4.5",
+    "passport-oauth2": "^1.5.0",
+    "util": "^0.12.3",
+    "ejs": "^3.1.5"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
