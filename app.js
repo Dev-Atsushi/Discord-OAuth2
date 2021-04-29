@@ -3,7 +3,6 @@ const session       = require('express-session');
 const app           = express();
 const passport      = require('passport');
 const Strategy      = require('./lib/Strategy.js').Strategy;
-const { checkAuth } = require('./utils/checkAuth.js');
 
 app.use(session({
     secret: 'youshallnotpass',
