@@ -1,6 +1,6 @@
 {
-  "name": "site",
-  "version": "0.0.1",
+  "name": "Discord-OAuth2",
+  "version": "1.0.0",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -14,13 +14,6 @@
     "util": "^0.12.3",
     "ejs": "^3.1.5"
   },
-  "engines": {
-    "node": "12.x"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "author": "Dev-Atsushi",
+  "license": "MIT"
 }
